@@ -1,0 +1,82 @@
+body{
+    background-color: burlywood;
+    background: url(https://www.itl.cat/pngfile/big/186-1860845_hd-wallpapers-for-desktop-3d-cool-scenery-wallpapers.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f0f8ffbd;
+    padding: 10px 40px;
+    box-shadow:inset 20px 5px 11px #668391;
+}
+h1{
+   font-size: 40px;
+   padding: 10px 0 0 10px ;
+   margin-left: 80px;
+  
+}
+.header-para{
+    padding: 10px 0 40px;
+    line-height: 1.5; 
+}
+h3{
+background-color: bisque;
+padding: 5px 5px;
+margin-bottom: 10px;
+margin-top: 5px;
+border-bottom: solid 1px black;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px; 
+}
+.mytable{
+    border-collapse: collapse;
+    width: 100%;
+}
+.mytable tr{
+    color: blue;
+}
+.mytable tr td{
+    border: solid 2px black;
+    color: black;
+}
+.mytable tr th{
+    background-color:#c6dce7;
+    padding: 10px 20px;
+    border: solid 2px black;
+    color: blue;
+}
+.list-style-1 li{
+list-style: none;
+}
+.list-style-1 li::before{
+    content: "";
+    display: inline-block;
+    background-color: blue;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -30px;
+position: relative;
+}
+
+.anchor:hover{
+    color: red;
+}
+
+.section{
+    margin-bottom: 10px;
+}
+
+.profile{
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+
